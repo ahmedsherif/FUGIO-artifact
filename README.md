@@ -35,6 +35,11 @@ We can set up RabbitMQ using `run_rabbitmq.sh`.
 - Password: fugio_password
 - RabbitMQ Management port: 15672
 
+#### 6. Install missing dependencies
+
+- `pip3 install Cython`
+- `apt-get install python3.8-dev`
+
 ## Prepare for running FUGIO
 #### 1. Install dependencies
 In the Docker container, execute the following commands.
