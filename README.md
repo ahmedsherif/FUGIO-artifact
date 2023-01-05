@@ -63,8 +63,8 @@ In the Docker container, execute the following commands.
     ```
     cd /FUGIO
     ./install_72.sh
-    /start.sh &
-    /create_user.sh
+    ./root/start.sh &
+    ./root/create_user.sh
     ```
 
 #### 2. Build benchmarks
